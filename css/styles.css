@@ -12,6 +12,7 @@ font-family: 'Source Sans Pro', sans-serif;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(15, 50px);
     font-family: 'Noto Serif', serif;
+    color: #334259;
 }
 
 .nav {
@@ -19,15 +20,19 @@ font-family: 'Source Sans Pro', sans-serif;
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 2;
-    background-color: red;
+    background-color: #6e8783;
 }
 
+.nav>ul {
+    display: flex;
+    flex-direction: row;
+}
 .content {
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 2;
     grid-row-end: 15;
-    background-color: blue;
+    background-color: #e5e5dc;
 }
 
 .footer {
@@ -35,16 +40,16 @@ font-family: 'Source Sans Pro', sans-serif;
     grid-column-end: 6;
     grid-row-start: 15;
     grid-row-end: 16;
-    background-color: green;
+    background-color: #6e8783;
 }
-body {
-    background-color:#e5dada;
-    
-    color: #002642;
+
+footer>p {
+    margin-left: 40px;
 }
 
 .nav>ul>li {
     list-style: none;
+    margin-right: 10px;
 }
 
 li>a {
@@ -61,24 +66,21 @@ h2 {
 }
 
 a:link {
-    color: #002642;
+    color: #334259;
 }
 
 a:visited {
-    color: #002642; 
+    color: #334259; 
 }
 
 .lcontrast:link {
-    color: #e59500;
+    color: #db504a;
 }
 
 .lcontrast:visited {
-    color: #e59500;
+    color: #db504a;
 }
 
 #myface {
     width: 300px;
-    
-   
-  
 }
