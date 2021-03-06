@@ -27,6 +27,16 @@ font-family: 'Source Sans Pro', sans-serif;
     display: flex;
     flex-direction: row;
 }
+
+.nav>ul>li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+li>a {
+    text-decoration: none;
+}
+
 .content {
     grid-column-start: 1;
     grid-column-end: 6;
@@ -47,22 +57,25 @@ footer>p {
     margin-left: 40px;
 }
 
-.nav>ul>li {
-    list-style: none;
-    margin-right: 10px;
-}
-
-li>a {
-    text-decoration: none;
-}
-
 h1 {
-    color: #e59500;
+    display: flex;
+    justify-content: center;
+    color: #db504a;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 h2 {
     font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 10px;
+}
+
+#myinfo {
+    display: flex;
+    flex-direction: row;
+}
+
+#myface {
+    width: 300px;
 }
 
 a:link {
@@ -81,6 +94,4 @@ a:visited {
     color: #db504a;
 }
 
-#myface {
-    width: 300px;
-}
+
